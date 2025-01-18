@@ -26,7 +26,6 @@ function calculadoraRankeada(vitorias, derrotas) {
 let vitorias = 50;  
 let derrotas = 20;  
 
-let resultado = calculadoraRankeada(vitorias, derrotas);  // Chama a função com as vitórias e derrotas
+let resultado = calculadoraRankeada(vitorias, derrotas); 
 
-// Exibe a mensagem com o saldo de vitórias e o nível
 console.log(`O Herói tem de saldo de ${resultado.saldoVitorias} está no nível de ${resultado.nivel}`);
