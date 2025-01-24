@@ -6,8 +6,8 @@ function aplicarJuros(preco, juros) {
   return preco + preco * (juros / 100);
 }
 
-let preco = 500;
-let formaDePagamento = 2;
+let preco = 100;
+let formaDePagamento = 1;
 
 if (formaDePagamento === 1) {
   console.log(aplicarDesconto(preco, 10));
