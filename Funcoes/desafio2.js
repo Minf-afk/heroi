@@ -15,3 +15,7 @@ function calcularDesconto(preco, formaDePagamento) {
     console.log(`O valor do produto com juros é R$ ${preco}`);
   }
 }
+calcularDesconto(preco, formaDePagamento);
+
+
+
