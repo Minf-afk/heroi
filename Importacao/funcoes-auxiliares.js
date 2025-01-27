@@ -1,9 +1,14 @@
+const entradas = [10, 20, 30, 40, 50];
+let i = 0;
+
 function gets() {
-  return 10;
+  const valor = entradas[i];
+  i++;
+  return valor;
 }
 
-function print() {
-  console.log("texto");
+function print(texto) {
+  console.log(texto);
 }
 
 module.exports = { gets, print };
