@@ -10,13 +10,11 @@ function calcularDesconto(valor, desconto) {
 function pegarAliquota(salario) {
   if (salario >= 0 && salario <= 1100) {
     return 5;
-}else if (salario >= 1101 && salario <= 2500) {
-    return 10;   
-}else {
+  } else if (salario >= 1101 && salario <= 2500) {
+    return 10;
+  } else {
     return 15;
-}
-
-
+  }
 }
 
 const aliquotaImposto = pegarAliquota(valorSalario);
@@ -25,5 +23,4 @@ const valorImposto = calcularDesconto(valorSalario, aliquotaImposto);
 
 const valorATransferir = valorSalario - valorImposto + beneficio;
 
-print(valorATransferir); 
-
+print(valorATransferir);
